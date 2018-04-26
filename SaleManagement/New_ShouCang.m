@@ -17,6 +17,7 @@
 {
     __weak IBOutlet NSLayoutConstraint *top1;
     Select *selectView;
+    //222
     __weak IBOutlet NSLayoutConstraint *top2;
     //是否选20条
     BOOL isSelect20;
