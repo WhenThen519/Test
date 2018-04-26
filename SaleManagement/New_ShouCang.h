@@ -7,8 +7,7 @@
 //
 
 #import "Fx_RootViewController.h"
-
 @interface New_ShouCang : Fx_RootViewController<UITableViewDelegate,UITableViewDataSource,UITextFieldDelegate>
-//测试一下
+//测试一下88
 @property (weak, nonatomic) IBOutlet UIButton *selectALLBtn;
 @end
