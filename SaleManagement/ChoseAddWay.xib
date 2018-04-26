@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChoseAddWay">
+            <connections>
+                <outlet property="mainView" destination="K1C-GN-jcT" id="Brn-AO-5qb"/>
+                <outlet property="mianView_h" destination="dz2-op-beh" id="e0E-em-ZQK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" alpha="0.69999999999999996" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K1C-GN-jcT" userLabel="ContentView">
+                    <rect key="frame" x="38" y="190" width="299" height="200"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请您选择添加方式" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ltv-3L-etm">
+                            <rect key="frame" x="0.0" y="35" width="299" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="17" id="NXE-rQ-F6t"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adu-pP-AvY">
+                            <rect key="frame" x="0.0" y="93" width="299" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="WhC-1Y-pGJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="手动添加" image="20x20手写">
+                                <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="addByHand:" destination="-1" eventType="touchUpInside" id="2pe-gl-jjM"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Ltv-3L-etm" firstAttribute="top" secondItem="K1C-GN-jcT" secondAttribute="top" constant="35" id="3cs-bE-0uX"/>
+                        <constraint firstItem="Adu-pP-AvY" firstAttribute="top" secondItem="Ltv-3L-etm" secondAttribute="bottom" constant="41" id="BeB-8Z-HEP"/>
+                        <constraint firstAttribute="trailing" secondItem="Adu-pP-AvY" secondAttribute="trailing" id="JfB-Rh-jxd"/>
+                        <constraint firstItem="Ltv-3L-etm" firstAttribute="leading" secondItem="K1C-GN-jcT" secondAttribute="leading" id="PnH-CP-qC7"/>
+                        <constraint firstAttribute="trailing" secondItem="Ltv-3L-etm" secondAttribute="trailing" id="R1a-gh-jxW"/>
+                        <constraint firstAttribute="height" constant="200" id="UlN-k0-qiv"/>
+                        <constraint firstItem="Adu-pP-AvY" firstAttribute="leading" secondItem="K1C-GN-jcT" secondAttribute="leading" id="akw-lJ-OrP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="K1C-GN-jcT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="38" id="HW4-Hp-cBh"/>
+                <constraint firstAttribute="trailing" secondItem="K1C-GN-jcT" secondAttribute="trailing" constant="38" id="YC2-8e-xxM"/>
+                <constraint firstItem="K1C-GN-jcT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="190" id="dz2-op-beh"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="20x20手写" width="14" height="14"/>
+    </resources>
+</document>

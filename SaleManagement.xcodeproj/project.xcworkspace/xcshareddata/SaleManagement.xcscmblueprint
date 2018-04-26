@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7a45fa14-78a7-4229-88bc-b53dad34b10f++7538",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++7538" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++7538" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7DCC5BDF-6C80-4CBD-BFA2-DD096CCB274B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++7538" : "SaleManagement\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SaleManagement",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SaleManagement.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/chaiyuanyuan.300.cn@scm11.300.cn\/300.cn\/BOSS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7a45fa14-78a7-4229-88bc-b53dad34b10f++7538"
+    }
+  ]
+}

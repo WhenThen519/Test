@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="KGk-i7-Jjw" customClass="promptVcTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="63"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JEc-NN-vpu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Combined Shape.png" translatesAutoresizingMaskIntoConstraints="NO" id="XEH-A9-qBI">
+                                <rect key="frame" x="12" y="6" width="300" height="50"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhe-7J-rs1">
+                                <rect key="frame" x="24" y="21" width="276" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="FtK-MP-21o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.95686274509803915" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Hhe-7J-rs1" secondAttribute="bottom" constant="22" id="B45-HQ-ksa"/>
+                            <constraint firstAttribute="bottom" secondItem="XEH-A9-qBI" secondAttribute="bottom" constant="8" id="HlS-4g-4SK"/>
+                            <constraint firstItem="Hhe-7J-rs1" firstAttribute="leading" secondItem="JEc-NN-vpu" secondAttribute="leading" constant="24" id="Jh1-HT-bi5"/>
+                            <constraint firstItem="XEH-A9-qBI" firstAttribute="leading" secondItem="JEc-NN-vpu" secondAttribute="leading" constant="12" id="Kxd-mk-6f2"/>
+                            <constraint firstAttribute="trailing" secondItem="Hhe-7J-rs1" secondAttribute="trailing" constant="20" id="R5o-vA-YM6"/>
+                            <constraint firstItem="Hhe-7J-rs1" firstAttribute="top" secondItem="JEc-NN-vpu" secondAttribute="top" constant="21" id="UfR-FJ-66Z"/>
+                            <constraint firstAttribute="trailing" secondItem="XEH-A9-qBI" secondAttribute="trailing" constant="8" id="c9C-6z-Bhe"/>
+                            <constraint firstItem="XEH-A9-qBI" firstAttribute="top" secondItem="JEc-NN-vpu" secondAttribute="top" constant="6" id="x25-R2-tRG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="JEc-NN-vpu" secondAttribute="bottom" id="4ic-2E-C42"/>
+                    <constraint firstItem="JEc-NN-vpu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="MAE-vD-G26"/>
+                    <constraint firstAttribute="trailing" secondItem="JEc-NN-vpu" secondAttribute="trailing" id="lN0-za-msv"/>
+                    <constraint firstItem="JEc-NN-vpu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="o0a-ue-Zm2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentH" destination="FtK-MP-21o" id="pPj-X4-nqb"/>
+                <outlet property="contentL" destination="Hhe-7J-rs1" id="MQd-jp-TX9"/>
+            </connections>
+            <point key="canvasLocation" x="31" y="75"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Combined Shape.png" width="16" height="16"/>
+    </resources>
+</document>

@@ -1,0 +1,24 @@
+//
+//  PF_TableViewCell.m
+//  SaleManagement
+//
+//  Created by chaiyuan on 2017/9/5.
+//  Copyright © 2017年 cn.300.cn. All rights reserved.
+//
+
+#import "PF_TableViewCell.h"
+
+@implementation PF_TableViewCell
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    // Initialization code
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+    [super setSelected:selected animated:animated];
+
+    // Configure the view for the selected state
+}
+
+@end

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="107" id="KGk-i7-Jjw" customClass="CY_MSNCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eh7-4J-b1K">
+                        <rect key="frame" x="13" y="20" width="257" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="8Tn-TM-mTI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qav-3H-NNX">
+                        <rect key="frame" x="13" y="46" width="257" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="aGP-Ly-5T4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Mc-hw-cFk">
+                        <rect key="frame" x="270" y="17" width="45" height="46"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="4DD-Gz-vGD"/>
+                            <constraint firstAttribute="height" constant="46" id="WAv-Jx-KZ3"/>
+                        </constraints>
+                        <state key="normal" image="btn_phone.png"/>
+                        <connections>
+                            <action selector="cellM:" destination="-2" eventType="touchUpInside" id="jmm-Zc-4C6"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qav-3H-NNX" firstAttribute="top" secondItem="eh7-4J-b1K" secondAttribute="bottom" constant="10" id="0Qn-gw-x9h"/>
+                    <constraint firstItem="eh7-4J-b1K" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="29L-XI-kpx"/>
+                    <constraint firstItem="eh7-4J-b1K" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="9eL-f8-XoC"/>
+                    <constraint firstItem="8Mc-hw-cFk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="Aha-SD-ORm"/>
+                    <constraint firstAttribute="trailing" secondItem="8Mc-hw-cFk" secondAttribute="trailing" constant="5" id="DaI-sf-q26"/>
+                    <constraint firstAttribute="trailing" secondItem="eh7-4J-b1K" secondAttribute="trailing" constant="50" id="L5m-EA-KQZ"/>
+                    <constraint firstItem="qav-3H-NNX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="b4b-k4-UE5"/>
+                    <constraint firstAttribute="trailing" secondItem="qav-3H-NNX" secondAttribute="trailing" constant="50" id="bBs-IL-Eu8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="comL" destination="qav-3H-NNX" id="B6y-Cl-C3R"/>
+                <outlet property="nameL" destination="eh7-4J-b1K" id="u9N-J4-YWB"/>
+                <outlet property="telB" destination="8Mc-hw-cFk" id="hjX-2u-hta"/>
+            </connections>
+            <point key="canvasLocation" x="459" y="331"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="btn_phone.png" width="21" height="21"/>
+    </resources>
+</document>

@@ -1,0 +1,228 @@
+{
+<<<<<<< .working
+<<<<<<< .working
+<<<<<<< .working
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946",
+=======
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28514
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28645
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080",
+<<<<<<< .working
+>>>>>>> .merge-right.r28206
+=======
+=======
+<<<<<<< .working
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28524
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946",
+=======
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28514
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080",
+<<<<<<< .working
+>>>>>>> .merge-right.r28206
+<<<<<<< .working
+>>>>>>> .merge-right.r28302
+<<<<<<< .working
+>>>>>>> .merge-right.r28514
+=======
+=======
+=======
+=======
+<<<<<<< .working
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946",
+=======
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080",
+>>>>>>> .merge-right.r28206
+>>>>>>> .merge-right.r28302
+>>>>>>> .merge-right.r28514
+>>>>>>> .merge-right.r28524
+>>>>>>> .merge-right.r28645
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+<<<<<<< .working
+<<<<<<< .working
+<<<<<<< .working
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : {
+
+    },
+=======
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28514
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28645
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080" : {
+=======
+<<<<<<< .working
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28524
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : {
+
+    },
+<<<<<<< .working
+>>>>>>> .merge-right.r28206
+=======
+<<<<<<< .working
+=======
+=======
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28514
+>>>>>>> .merge-right.r28645
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080" : {
+=======
+<<<<<<< .working
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : {
+
+    },
+<<<<<<< .working
+>>>>>>> .merge-right.r28206
+<<<<<<< .working
+>>>>>>> .merge-right.r28514
+=======
+=======
+=======
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080" : {
+
+    },
+>>>>>>> .merge-right.r28206
+>>>>>>> .merge-right.r28514
+>>>>>>> .merge-right.r28645
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++7538" : {
+>>>>>>> .merge-right.r28302
+
+    },
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+<<<<<<< .working
+<<<<<<< .working
+<<<<<<< .working
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : 0,
+=======
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28514
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28645
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080" : 0,
+<<<<<<< .working
+>>>>>>> .merge-right.r28206
+=======
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : 0
+=======
+<<<<<<< .working
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28524
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : 0,
+=======
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28514
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080" : 0,
+<<<<<<< .working
+>>>>>>> .merge-right.r28206
+<<<<<<< .working
+>>>>>>> .merge-right.r28514
+=======
+=======
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : 0
+=======
+<<<<<<< .working
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : 0,
+=======
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080" : 0,
+>>>>>>> .merge-right.r28206
+>>>>>>> .merge-right.r28514
+>>>>>>> .merge-right.r28645
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++7538" : 0
+>>>>>>> .merge-right.r28302
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "77DAE3D1-9481-4C3D-B45B-78EF7233ED43",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+<<<<<<< .working
+<<<<<<< .working
+<<<<<<< .working
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : "TrunkCode\/",
+=======
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28514
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28645
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080" : "SaleManagement_AddA\/",
+<<<<<<< .working
+>>>>>>> .merge-right.r28206
+=======
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : "SaleManagement\/"
+=======
+<<<<<<< .working
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28524
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : "TrunkCode\/",
+=======
+=======
+<<<<<<< .working
+>>>>>>> .merge-right.r28514
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080" : "SaleManagement_AddA\/",
+<<<<<<< .working
+>>>>>>> .merge-right.r28206
+<<<<<<< .working
+>>>>>>> .merge-right.r28514
+=======
+=======
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : "SaleManagement\/"
+=======
+<<<<<<< .working
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946" : "TrunkCode\/",
+=======
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080" : "SaleManagement_AddA\/",
+>>>>>>> .merge-right.r28206
+>>>>>>> .merge-right.r28514
+>>>>>>> .merge-right.r28645
+    "7a45fa14-78a7-4229-88bc-b53dad34b10f++7538" : "SaleManagement\/"
+>>>>>>> .merge-right.r28302
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SaleManagement",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SaleManagement.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+<<<<<<< .working
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/wangfeixiang.300.cn@scm11.300.cn\/300.cn\/BOSS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946"
+    },
+    {
+=======
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/wangfeixiang.300.cn@scm11.300.cn\/300.cn\/BOSS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080"
+    },
+    {
+>>>>>>> .merge-right.r28206
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/chaiyuanyuan.300.cn@scm11.300.cn\/300.cn\/BOSS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7a45fa14-78a7-4229-88bc-b53dad34b10f++1946"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/wangfeixiang.300.cn@scm11.300.cn\/300.cn\/BOSS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7a45fa14-78a7-4229-88bc-b53dad34b10f++2080"
+    }
+  ]
+}
